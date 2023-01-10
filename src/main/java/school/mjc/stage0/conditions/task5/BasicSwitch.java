@@ -4,7 +4,7 @@ public class BasicSwitch {
     public static void main(String[] args) {
         int a = 20;
         switch (a) {
-            default:
+            case 20:
                 System.out.println("default");
                 break;
             case 7:
@@ -13,7 +13,7 @@ public class BasicSwitch {
             case 10:
                 System.out.println("ten");
                 break;
-            case 20:
+            case 12:
                 System.out.println("twenty");
                 break;
         }
